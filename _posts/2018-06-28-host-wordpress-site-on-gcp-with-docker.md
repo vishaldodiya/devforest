@@ -19,31 +19,31 @@ Hey There. Now we are moving ahead with our set up of the WordPress site. In th
 
 To configure an instance on GCP we need GCP access. One can use GCP&#8217;s 12 Month trial version for beginning and experiments or can check GCP [plans](https://cloud.google.com/pricing/list) as per the services. After getting GCP console we are ready to set up one VM instance.
 
-<img class="alignnone wp-image-66" src="https://devforest.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.05.52-PM-300x188.png" alt="" width="945" height="592" srcset="http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.05.52-PM-300x188.png 300w, http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.05.52-PM-768x480.png 768w, http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.05.52-PM-1024x640.png 1024w" sizes="(max-width: 945px) 100vw, 945px" /> 
+![](/assets/2018/06/Screen-Shot-2018-06-24-at-3.05.52-PM.png)
 
 To create VM instance open GCP > Compute Engine > vm instance.
 
-<img class="alignnone wp-image-67" src="https://devforest.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.06.20-PM-300x188.png" alt="" width="892" height="559" srcset="http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.06.20-PM-300x188.png 300w, http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.06.20-PM-768x480.png 768w, http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.06.20-PM-1024x640.png 1024w" sizes="(max-width: 892px) 100vw, 892px" /> 
+![](/assets/Screen-Shot-2018-06-24-at-3.06.20-PM.png)
 
 To create new instance click **Create Instance** and you need to fill up configuration details.
 
-<img class="alignnone wp-image-68" src="https://devforest.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.06.37-PM-300x188.png" alt="" width="839" height="526" srcset="http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.06.37-PM-300x188.png 300w, http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.06.37-PM-768x480.png 768w" sizes="(max-width: 839px) 100vw, 839px" /> 
+![](/assets/Screen-Shot-2018-06-24-at-3.06.37-PM.png)
 
 Fill up the details like instance name, region etc. One can change VM boot disk by clicking Change in book disk box. There will be list of Boot disks like shown below. We will use **Ubuntu 16.04 LTS.**
 
-<img class="alignnone wp-image-69" src="https://devforest.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.06.47-PM-300x188.png" alt="" width="825" height="517" srcset="http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.06.47-PM-300x188.png 300w, http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.06.47-PM-768x480.png 768w, http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.06.47-PM-1024x640.png 1024w" sizes="(max-width: 825px) 100vw, 825px" /> 
+![](/assets/Screen-Shot-2018-06-24-at-3.06.47-PM.png)
 
 Select Ubuntu 16.04 LTS and click **Select**.
 
-<img class="alignnone wp-image-70" src="https://devforest.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.07.01-PM-300x188.png" alt="" width="795" height="498" srcset="http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.07.01-PM-300x188.png 300w, http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.07.01-PM-768x480.png 768w, http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.07.01-PM-1024x640.png 1024w" sizes="(max-width: 795px) 100vw, 795px" /> 
+![](/assets/Screen-Shot-2018-06-24-at-3.07.01-PM.png)
 
 Click **Create** to initialize the instance. The instance will be started in few minutes and one can check the instance status like below.
 
-<img class="alignnone wp-image-71" src="https://devforest.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.07.14-PM-300x188.png" alt="" width="769" height="482" srcset="http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.07.14-PM-300x188.png 300w, http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.07.14-PM-768x480.png 768w, http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.07.14-PM-1024x640.png 1024w" sizes="(max-width: 769px) 100vw, 769px" /> 
+![](/assets/Screen-Shot-2018-06-24-at-3.07.14-PM.png)
 
 Now our instance is ready to configure [WP_Docker](https://github.com/vishaldodiya/WP_Docker) and install dependencies. To access VM instance click ssh to login to ssh into the instance. It will open a popup menu and give access to the instance.
 
-<img class="alignnone wp-image-72" src="https://devforest.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.14.49-PM-300x188.png" alt="" width="852" height="534" srcset="http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.14.49-PM-300x188.png 300w, http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.14.49-PM-768x480.png 768w, http://my.loc/wp-content/uploads/2018/06/Screen-Shot-2018-06-24-at-3.14.49-PM-1024x640.png 1024w" sizes="(max-width: 852px) 100vw, 852px" /> 
+![](/assets/Screen-Shot-2018-06-24-at-3.14.49-PM.png)
 
 Now we are inside out instance so we need to install few dependencies because instance does not have docker and docker-compose pre-installed. To install docker check follow this [steps](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-convenience-script). After installing docker install Docker-compose by following this [steps](https://docs.docker.com/compose/install/#install-compose).
 
