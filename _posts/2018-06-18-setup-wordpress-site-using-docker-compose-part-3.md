@@ -1,6 +1,6 @@
 ---
 id: 35
-title: 'Setup WordPress site using docker compose &#8211; Part 3'
+title: 'Setup WordPress site using docker compose Part 3'
 date: 2018-06-18T07:54:51+00:00
 author: Vishal Dodiya
 layout: post
