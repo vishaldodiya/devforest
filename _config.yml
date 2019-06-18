@@ -29,6 +29,13 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+# Enable Disqus Comment.
+disqus:
+    shortname: devforest
+
+# Enable Google Analytics.
+google_analytics: UA-135403936-1
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
