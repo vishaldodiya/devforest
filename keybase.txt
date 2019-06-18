@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/vishaldodiya
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://devforest.com
+  * I am vishaldodiya (https://keybase.io/vishaldodiya) on keybase.
+  * I have a public key ASDHeBTu5Dd2_UjJ4fAI5DitJID1m-7Eu3BryPsUxMV7jAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c77814eee43776fd48c9e1f008e438ad2480f59beec4bb706bc8fb14c4c57b8c0a",
+      "host": "keybase.io",
+      "kid": "0120c77814eee43776fd48c9e1f008e438ad2480f59beec4bb706bc8fb14c4c57b8c0a",
+      "uid": "1bc19997a2d57b4d2e5d1c65e5753b19",
+      "username": "vishaldodiya"
+    },
+    "merkle_root": {
+      "ctime": 1560489924,
+      "hash": "5dee8669c681e3d39bf9dcb8e5cb62fc9c9c23d518d4723c0171a5bbb4bca9f06d8c10eed9ce44742005f47f55d59da73751e3f16f63532dfed8f4accb03343d",
+      "hash_meta": "8fbe78c34c3d3c0c6c33424c64697a92a7607c386b89f3eabd17c201a5d9c4cf",
+      "seqno": 5568707
+    },
+    "service": {
+      "entropy": "JNqICifnVvXUK7xQAtTPoZxn",
+      "hostname": "devforest.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.1.0"
+  },
+  "ctime": 1560489935,
+  "expire_in": 504576000,
+  "prev": "cbcbf18eb4a7645e7fc4a9746f0ca889ee6b61727ef7aedf96d17e628aaaa4ea",
+  "seqno": 18,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgx3gU7uQ3dv1IyeHwCOQ4rSSA9ZvuxLtwa8j7FMTFe4wKp3BheWxvYWTESpcCEsQgy8vxjrSnZF5/xKl0bwyoie5rYXJ+967fltF+YoqqpOrEIPt9nMJ+waKijxayYFczDBGOllFwRCnRKmnGhmxv19b+AgHCo3NpZ8RAwuQ7WkU8Rjlfunp3F2a4DhDucFuh/U55YmjTdiCPM2yiIIHf0LVFoRVJO7roYzFgVOQ8FW/NMcJ8tLcKjaHgCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAayYrgAa8Lvv0TH15f5E+RnYooTojuXC+cFYkdMFHDFo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vishaldodiya
+
+==================================================================
