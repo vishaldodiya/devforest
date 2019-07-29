@@ -12,8 +12,11 @@
     </style>
     {%- seo -%}
     {%- feed_meta -%}
-    {%- if jekyll.environment == 'production' and site.google_analytics -%}
-      {%- include google-analytics.html -%}
+    {%- if jekyll.environment == 'production' -%}
+      <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+      {%- if site.google_analytics -%}
+        {%- include google-analytics.html -%}
+      {%- endif -%}
     {%- endif -%}
     {%- if page.has_gist == true -%}
         <script async custom-element="amp-gist" src="https://cdn.ampproject.org/v0/amp-gist-0.1.js"></script>
