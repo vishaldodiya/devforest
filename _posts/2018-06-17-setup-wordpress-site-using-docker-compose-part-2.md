@@ -6,7 +6,7 @@ author: Vishal Dodiya
 layout: post
 guid: https://devforest.com/?p=20
 permalink: /2018/06/17/setup-wordpress-site-using-docker-compose-part-2/
-image: /wp-content/uploads/2018/06/ilya-pavlov-87438-unsplash-825x510.jpg
+has_gist: false
 categories:
   - Tech
 tags:

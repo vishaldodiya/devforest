@@ -6,6 +6,7 @@ author: Vishal Dodiya
 layout: post
 guid: https://devforest.com/?p=216
 permalink: /2019/03/30/php-singleton-trait-and-using-it-in-a-class/
+has_gist: true
 amp_status:
   - enabled
 categories:
@@ -21,10 +22,11 @@ Traits are one of the ways of inheritance in PHP for more detail check [Traits.]
 
 [Code Snippet:](https://gist.github.com/vishaldodiya/825cbc55aaef661f4250d4a11a7fc9ec#file-singleton-trait-php)
 
-<script src="https://gist.github.com/vishaldodiya/825cbc55aaef661f4250d4a11a7fc9ec.js"></script>
+<amp-gist data-gistid="825cbc55aaef661f4250d4a11a7fc9ec" layout="fixed-height" height="10">
+</amp-gist>
 
 This is how you can create a Trait and use it in a class.
 
-Some points to keep in a note. In Trait, the constructor is protected so one can&#8217;t create an instance of the class by just <g class="gr_ gr\_211 gr-alert gr\_gramm gr\_inline\_cards gr\_run\_anim Style multiReplace" id="211" data-gr-id="211">calling </g>`new SingletonClass()`<g class="gr_ gr\_211 gr-alert gr\_gramm gr\_inline\_cards gr\_disable\_anim_appear Style multiReplace" id="211" data-gr-id="211">.</g> It will give a fatal error.
+Some points to keep in a note. In Trait, the constructor is protected so one can&#8217;t create an instance of the class by just calling. It will give a fatal error.
 
 <pre class="wp-block-preformatted">PHP Fatal error:  Uncaught Error: Call to protected SingletonClass::__construct() from invalid context<br /></pre>
