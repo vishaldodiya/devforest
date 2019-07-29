@@ -6,7 +6,7 @@ author: Vishal Dodiya
 layout: post
 guid: https://devforest.com/?p=10
 permalink: /2018/06/06/setup-wordpress-site-using-docker-compose/
-image: /wp-content/uploads/2018/06/emile-perron-190221-unsplash-825x510.jpg
+has_gist: false
 categories:
   - Tech
 tags:

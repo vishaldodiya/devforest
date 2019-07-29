@@ -6,6 +6,7 @@ author: Vishal Dodiya
 layout: post
 guid: https://devforest.com/?p=242
 permalink: /2019/04/06/setup-vip-classic-dev-environment/
+has_gist: true
 amp_status:
   - enabled
 categories:
@@ -15,4 +16,5 @@ tags:
   - WordPress
 ---
 
-<script src="https://gist.github.com/vishaldodiya/45de048777dc6bd57d077729076edfb6.js"></script>
+<amp-gist data-gistid="45de048777dc6bd57d077729076edfb6" layout="fixed-height" height="10">
+</amp-gist>

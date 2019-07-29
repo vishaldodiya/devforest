@@ -6,6 +6,7 @@ author: Vishal Dodiya
 layout: post
 guid: https://devforest.com/?p=120
 permalink: /2018/09/09/wordpress-protected-embed-plugin/
+has_gist: false
 categories:
   - Tech
 tags:
@@ -25,16 +26,16 @@ To add protected embed on post follow this steps.
 
 Step 1: Create a new post. Click on **Add Media** button.
 
-![](https://github.com/vishaldodiya/devforest/raw/master/assets/Screen-Shot-2018-09-08-at-6.28.46-PM.png)
+<amp-img src="/assets/Screen-Shot-2018-09-08-at-6.28.46-PM.png" width="1080" height="100" layout="responsive" alt="AMP"></amp-img>
 
 Step 2: Click on **Protected Embed** Menu.
 
-![](/assets/Screen-Shot-2018-09-08-at-6.29.09-PM.png)
+<amp-img src="/assets/Screen-Shot-2018-09-08-at-6.29.09-PM.png" width="1080" height="610" layout="responsive" alt="AMP"></amp-img>
 
 Step 3: Now we have one textarea in which we need to add embed code and click **Add to Post** button.
 
-![](/assets/Screen-Shot-2018-09-08-at-6.30.03-PM.png)
+<amp-img src="/assets/Screen-Shot-2018-09-08-at-6.30.03-PM.png" width="1080" height="610" layout="responsive" alt="AMP"></amp-img>
 
 Step 4: After adding embed in the post, one shortcode will be generated and added to&nbsp;the editor. Now protected embed is ready.
 
-![](/assets/Screen-Shot-2018-09-08-at-6.30.17-PM.png)
+<amp-img src="/assets/Screen-Shot-2018-09-08-at-6.30.17-PM.png" width="1080" height="610" layout="responsive" alt="AMP"></amp-img>

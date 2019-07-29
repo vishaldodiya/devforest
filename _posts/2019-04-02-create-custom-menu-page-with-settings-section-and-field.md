@@ -6,6 +6,7 @@ author: Vishal Dodiya
 layout: post
 guid: https://devforest.com/?p=223
 permalink: /2019/04/02/create-custom-menu-page-with-settings-section-and-field/
+has_gist: true
 amp_status:
   - enabled
 categories:
@@ -18,4 +19,5 @@ Creating custom settings with multiple modules might be confusing because WordPr
 
 Here is the [snippet](https://gist.github.com/vishaldodiya/b1fc3381c02d2e693cdbb2ad8c7f682b) of creating custom menu page.
 
-<script src="https://gist.github.com/vishaldodiya/b1fc3381c02d2e693cdbb2ad8c7f682b.js"></script>
+<amp-gist data-gistid="b1fc3381c02d2e693cdbb2ad8c7f682b" layout="fixed-height" height="10">
+</amp-gist>

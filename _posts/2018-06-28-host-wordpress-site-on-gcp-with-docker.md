@@ -6,7 +6,7 @@ author: Vishal Dodiya
 layout: post
 guid: https://devforest.com/?p=52
 permalink: /2018/06/28/host-wordpress-site-on-gcp-with-docker/
-image: /wp-content/uploads/2018/06/marten-bjork-474033-unsplash-825x510.jpg
+has_gist: false
 categories:
   - Tech
 tags:
@@ -19,31 +19,31 @@ Hey There. Now we are moving ahead with our set up of the WordPress site. In th
 
 To configure an instance on GCP we need GCP access. One can use GCP&#8217;s 12 Month trial version for beginning and experiments or can check GCP [plans](https://cloud.google.com/pricing/list) as per the services. After getting GCP console we are ready to set up one VM instance.
 
-![](/assets/2018/06/Screen-Shot-2018-06-24-at-3.05.52-PM.png)
+<amp-img src="/assets/Screen-Shot-2018-06-24-at-3.05.52-PM.png" width="1080" height="610" layout="responsive" alt="AMP"></amp-img>
 
 To create VM instance open GCP > Compute Engine > vm instance.
 
-![](/assets/Screen-Shot-2018-06-24-at-3.06.20-PM.png)
+<amp-img src="/assets/Screen-Shot-2018-06-24-at-3.06.20-PM.png" width="1080" height="610" layout="responsive" alt="AMP"></amp-img>
 
 To create new instance click **Create Instance** and you need to fill up configuration details.
 
-![](/assets/Screen-Shot-2018-06-24-at-3.06.37-PM.png)
+<amp-img src="/assets/Screen-Shot-2018-06-24-at-3.06.37-PM.png" width="1080" height="610" layout="responsive" alt="AMP"></amp-img>
 
 Fill up the details like instance name, region etc. One can change VM boot disk by clicking Change in book disk box. There will be list of Boot disks like shown below. We will use **Ubuntu 16.04 LTS.**
 
-![](/assets/Screen-Shot-2018-06-24-at-3.06.47-PM.png)
+<amp-img src="/assets/Screen-Shot-2018-06-24-at-3.06.47-PM.png" width="1080" height="610" layout="responsive" alt="AMP"></amp-img>
 
 Select Ubuntu 16.04 LTS and click **Select**.
 
-![](/assets/Screen-Shot-2018-06-24-at-3.07.01-PM.png)
+<amp-img src="/assets/Screen-Shot-2018-06-24-at-3.07.01-PM.png" width="1080" height="610" layout="responsive" alt="AMP"></amp-img>
 
 Click **Create** to initialize the instance. The instance will be started in few minutes and one can check the instance status like below.
 
-![](/assets/Screen-Shot-2018-06-24-at-3.07.14-PM.png)
+<amp-img src="/assets/Screen-Shot-2018-06-24-at-3.07.14-PM.png" width="1080" height="610" layout="responsive" alt="AMP"></amp-img>
 
 Now our instance is ready to configure [WP_Docker](https://github.com/vishaldodiya/WP_Docker) and install dependencies. To access VM instance click ssh to login to ssh into the instance. It will open a popup menu and give access to the instance.
 
-![](/assets/Screen-Shot-2018-06-24-at-3.14.49-PM.png)
+<amp-img src="/assets/Screen-Shot-2018-06-24-at-3.14.49-PM.png" width="1080" height="610" layout="responsive" alt="AMP"></amp-img>
 
 Now we are inside out instance so we need to install few dependencies because instance does not have docker and docker-compose pre-installed. To install docker check follow this [steps](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-convenience-script). After installing docker install Docker-compose by following this [steps](https://docs.docker.com/compose/install/#install-compose).
 

@@ -6,6 +6,7 @@ author: Vishal Dodiya
 layout: post
 guid: https://devforest.com/?p=259
 permalink: /2019/04/11/js-abstract-or-loose-equality-comparisons/
+has_gist: false
 categories:
   - Tech
 tags:
