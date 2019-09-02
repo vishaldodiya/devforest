@@ -24,6 +24,7 @@ layout: default
       <div id="disqus-thread"></div>
     </amp-script>
     <script id="discus-comment" type="text/plain" target="amp-script">
+      console.log( document );
       console.log( window );
       window.disqus_config = function() {
         window.page.url = '{{ page.url | absolute_url }}';
