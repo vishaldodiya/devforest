@@ -20,12 +20,25 @@ layout: default
   </div>
 
   {%- if jekyll.environment == 'production' -%}
-    <!-- <amp-script layout="container" src="{{site.url}}/disqus.js">
-      <div id="disqus-thread"></div>
-    </amp-script> -->
-    <amp-script layout="container" src="https://devforest.disqus.com/embed.js">
+    <amp-script layout="container" script="discus-comment">
       <div id="disqus-thread"></div>
     </amp-script>
+    <script id="discus-comment" type="text/plain" target="amp-script">
+      console.log( window );
+      window.disqus_config = function() {
+        window.page.url = '{{ page.url | absolute_url }}';
+        window.page.identifier = '{{ page.url | absolute_url }}';
+      }
+
+      console.log( window );
+
+      (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://devforest.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
     <!-- <amp-iframe width=600 height=140
         layout="responsive"
         sandbox="allow-scripts allow-modals allow-popups allow-forms"
