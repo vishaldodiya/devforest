@@ -1,7 +1,11 @@
+console.log( window );
+
 window.disqus_config = function() {
     window.page.url = window.location.href;
     window.page.identifier = window.location.href;
 }
+
+console.log( window );
 
 (function() {
     var d = document, s = d.createElement('script');
