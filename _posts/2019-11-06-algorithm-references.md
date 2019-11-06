@@ -11,5 +11,5 @@ tags:
   - Algorithms
 ---
 
-<amp-gist data-gistid="e933cbcb3a929d5c0d0ffc396f447526" layout="fixed-height" height="10">
+<amp-gist data-gistid="cd46f45558fd5a2ccc6fe04f2469e1ad" layout="fixed-height" height="10">
 </amp-gist>
